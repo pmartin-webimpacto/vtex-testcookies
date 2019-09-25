@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": [ "es2015" ],
+    "strictNullChecks": false
+  },
+    "include": [
+      "./**/*.ts",
+      "typings.d.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }

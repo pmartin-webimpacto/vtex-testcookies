@@ -1,0 +1,25 @@
+{
+  "vendor": "webimpacto",
+  "name": "testcookies",
+  "version": "0.0.1",
+  "title": "Test cookies",
+  "description": "Test cookies",
+  "credentialType": "absolute",
+  "defaultLocale": "es-AR",
+  "builders": {
+    "node": "4.x"
+  },
+  "mustUpdateAt": "2019-08-24",
+  "categories": [],
+  "registries": [
+    "smartcheckout"
+  ],
+ 
+  "billingOptions": {
+    "free": true
+  },
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
